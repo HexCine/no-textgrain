@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fragment Text"
+  short_description: "Локальная сборка ответа из фрагментов"
+  default_prompt: "Используй $fragment-text для следующего ответа в экспериментальном режиме."
