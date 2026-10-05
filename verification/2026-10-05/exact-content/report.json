@@ -1,0 +1,10 @@
+{
+  "format": "fragment-text/v1",
+  "watermark_status": "not_tested",
+  "generation_origin": "not_verified",
+  "parts": 38,
+  "blocks": 1,
+  "characters": 126,
+  "transport_sha256": "1fe681d7a446c73fcf3ad66e2ee2bed59d4b795132ad723b2ba7b65fc3d8f7ef",
+  "text_sha256": "5fc3f820b264f973c3a6c5e4bb7376bf65ccc35dbe3eab42ed7932ba505f86d5"
+}

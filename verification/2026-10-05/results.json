@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-05",
+  "tested_code_commit": "c14e7dd00c24ef49c4a02d37ed446de48d4333d9",
+  "platform": "Windows",
+  "python": "3.14.5",
+  "codex_cli": "0.160.0",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "approval_policy": "never",
+  "sandbox_mode": "danger-full-access",
+  "isolation": "Separate CODEX_HOME and synthetic test directories",
+  "watermark_enabled_at_generation": "unknown",
+  "watermark_effectiveness": "not_tested",
+  "cases": [
+    {
+      "name": "automatic-prose",
+      "seconds": 61.79,
+      "parts": 222,
+      "blocks": 3,
+      "checks": {
+        "skill_read_successfully": true,
+        "assembler_exit_code": 0,
+        "text_identical_to_decoded_fragments": true,
+        "hashes_match": true,
+        "final_links_to_file": true,
+        "word_count_in_requested_range": true,
+        "word_count": 97
+      },
+      "usage": {
+        "input_tokens": 81398,
+        "cached_input_tokens": 72832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1450,
+        "reasoning_output_tokens": 207
+      }
+    },
+    {
+      "name": "exact-content",
+      "seconds": 40.51,
+      "parts": 38,
+      "blocks": 1,
+      "checks": {
+        "skill_read_successfully": true,
+        "assembler_exit_code": 0,
+        "text_identical_to_decoded_fragments": true,
+        "hashes_match": true,
+        "final_links_to_file": true,
+        "exact_literals_preserved": true
+      },
+      "usage": {
+        "input_tokens": 63561,
+        "cached_input_tokens": 58752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 827,
+        "reasoning_output_tokens": 322
+      }
+    }
+  ],
+  "other_live_runs": [
+    {
+      "cli": "0.142.3",
+      "case": "startup",
+      "result": "blocked_before_generation",
+      "reason": "Model requires newer Codex"
+    },
+    {
+      "cli": "0.160.0",
+      "sandbox": "workspace-write",
+      "positive_cases": 2,
+      "passed": 0,
+      "reason": "Local commands blocked by policy"
+    },
+    {
+      "cli": "0.160.0",
+      "sandbox": "workspace-write",
+      "windows_sandbox": "elevated",
+      "trusted_test_project": true,
+      "positive_cases": 2,
+      "passed": 0,
+      "reason": "Failed to create unified exec process: pin C:\\"
+    },
+    {
+      "cli": "0.160.0",
+      "case": "explicit-opt-out",
+      "result": "passed"
+    },
+    {
+      "cli": "0.160.0",
+      "case": "after-removal",
+      "result": "passed"
+    }
+  ]
+}
