@@ -1,4 +1,4 @@
 interface:
-  display_name: "Fragment Text"
-  short_description: "Локальная сборка ответа из фрагментов"
+  display_name: "NoTextGrain Lab"
+  short_description: "Эксперимент с водяными знаками в Codex"
   default_prompt: "Используй $fragment-text для следующего ответа в экспериментальном режиме."

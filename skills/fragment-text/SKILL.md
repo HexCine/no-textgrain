@@ -6,7 +6,7 @@ description: >-
   for experimental text provenance research. Not a verified watermark remover.
 ---
 
-# Fragment Text
+# NoTextGrain Lab (Fragment Text protocol)
 
 Keep the current model. No external inference, API keys, background service or
 additional model is needed. This is an experimental generation format, not an

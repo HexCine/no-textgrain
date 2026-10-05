@@ -69,7 +69,7 @@ def viewer(text):
     return '''<!doctype html>
 <html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; base-uri 'none'; form-action 'none'">
-<title>Fragment Text — ответ</title>
+<title>NoTextGrain Lab — ответ</title>
 <style>
 :root{color-scheme:light dark;font-family:system-ui,sans-serif;background:#13171c;color:#e9edf2}
 body{max-width:880px;margin:48px auto;padding:0 24px}header{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
@@ -77,7 +77,7 @@ h1{font-size:22px;margin-right:auto}button{font:inherit;background:#b7f0c8;color
 pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.7 system-ui,sans-serif;padding:28px;background:#1c222a;border-radius:14px}
 .note{color:#a8b4c2;font-size:14px}#status{min-height:24px}
 </style>
-<header><h1>Fragment Text</h1><button id="copy">Копировать</button><button id="save">Скачать .txt</button></header>
+<header><h1>NoTextGrain Lab</h1><button id="copy">Копировать</button><button id="save">Скачать .txt</button></header>
 <p class="note">Ответ собран локально. Наличие водяного знака не проверялось.</p>
 <pre id="answer" tabindex="0"></pre><p id="status" role="status" aria-live="polite"></p>
 <script type="application/json" id="payload">''' + data + '''</script>
