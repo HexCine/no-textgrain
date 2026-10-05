@@ -1,2 +1,2 @@
 # Preserve evidence bytes so SHA-256 values remain valid on every platform.
-verification/** -text
+verification/** -text whitespace=cr-at-eol
